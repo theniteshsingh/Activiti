@@ -28,7 +28,7 @@ jobs:
       - name: Check dependabot build
         uses: ./.github/actions/check-ext-build
       - name: pre-commit
-        uses: Alfresco/alfresco-build-tools/.github/actions/pre-commit@469ed8f7c8198c4f8476392d944b2568e4043c5a # v5.13.1
+        uses: Alfresco/alfresco-build-tools/.github/actions/pre-commit@4a622625f9863bb73651cab161bb01d30aaa1b52 # v5.16.0
         with:
           skip_checkout: true
       - name: Ensure SHA pinned actions
